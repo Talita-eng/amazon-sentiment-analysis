@@ -34,6 +34,7 @@ Acurácia obtida: **90,68**
 
 Matriz de Confusão:  
 ![Confusion Matrix](results/confusion_matrix.png)
+
 Curva ROC:  
 ![ROC Curve](results/roc_curve.png)
 
