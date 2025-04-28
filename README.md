@@ -16,13 +16,27 @@ Utilizamos o dataset [Amazon Review Polarity](https://www.kaggle.com/datasets/kr
 6. **Exportação** do modelo (`joblib`)
 7. **Predição em tempo real** com função `predict_sentiment`
 
+## 📝 Tecnologias utilizadas
+- Python 3
+- scikit-learn
+- pandas
+- seaborn / matplotlib
+- joblib
+- kagglehub
+
 ## 🧠 Modelo
 
 O modelo utilizado foi uma Regressão Logística, escolhida por ser simples, rápida e eficaz para tarefas de classificação binária em textos vetorizados.
 
 ## 📊 Resultados
 
-Acurácia obtida: **(coloque a acurácia aqui)**  
+Acurácia obtida: **90,68**
+
+Matriz de Confusão:  
+![Confusion Matrix](results/confusion_matrix.png)
+Curva ROC:  
+![ROC Curve](results/roc_curve.png)
+
 O modelo se mostrou consistente e capaz de prever sentimentos corretamente em exemplos fora do treino.
 
 ## 🛠 Como usar
