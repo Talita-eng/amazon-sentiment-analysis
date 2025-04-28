@@ -1,0 +1,1 @@
+O dataset utilizado foi [Amazon Review Polarity] (https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews), obtido via `kagglehub` no Google Colab.
